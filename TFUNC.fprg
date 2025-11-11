@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="TFUNC"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-11 09:08:14 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC1BMlNBTTNNMDsyMDI1LTExLTExOzA4OjU4OjIzIFBNOzI3NzU="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC1BMlNBTTNNMDsyMDI1LTExLTExOzA4OjU4OjI1IFBNOzE7VVNFUjtMQVBUT1AtVUZVQUEzSUo7MjAyNC0xMS0wNTswOToxMzo0MiBQTTtURlVOQ1sxXS5mcHJnOzY3NzE="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC1BMlNBTTNNMDsyMDI1LTExLTExOzA5OjA4OjE0IFBNOzI7Mjg4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, hasil" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="hasil" expression="pertambahan(n)"/>
+            <output expression="&quot;Bilangan yang dimasukkan : &quot; &amp; n" newline="True"/>
+            <output expression="&quot;Hasil perhitungan rekursif : &quot; &amp; hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
